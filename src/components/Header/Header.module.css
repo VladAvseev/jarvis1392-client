@@ -1,0 +1,17 @@
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 0 10px;
+    background: #1E90FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 3rem;
+    color: #ffffff;
+}

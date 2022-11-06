@@ -1,0 +1,36 @@
+.main__open, .main__close {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    width: 16vw;
+    background: #1E90FF;
+    color: #ffffff;
+    padding: 20px;
+    border: 1px solid #1E88DD;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__open {
+    transform: translateX(0%);
+}
+
+.main__close {
+    transform: translateX(100%);
+}
+
+li {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+.link:hover {
+    color: #FFFFFF;
+}

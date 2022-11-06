@@ -1,0 +1,11 @@
+.page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page > div {
+    width: 50%;
+}
+
+
+

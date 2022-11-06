@@ -1,0 +1,23 @@
+.main {
+    width: 300px;
+    box-shadow: 2px 2px 4px #777;
+}
+
+.img__wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.img {
+    width: 100%;
+}
+
+.content {
+    padding: 10px;
+}
+
+.name {
+    color: #1E90FF;
+    text-align: center;
+    margin: 0 0 5px;
+}
